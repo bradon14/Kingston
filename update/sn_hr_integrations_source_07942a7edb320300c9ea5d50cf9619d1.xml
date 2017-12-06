@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sn_hr_integrations_source">
+    <sn_hr_integrations_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <endpoint_url>www.dotuns.com</endpoint_url>
+        <name>User Access</name>
+        <sys_class_name>sn_hr_integrations_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-06 20:10:09</sys_created_on>
+        <sys_id>07942a7edb320300c9ea5d50cf9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Access</sys_name>
+        <sys_package display_value="Hotel Management" source="x_144093_hotel_man">72009a32db320300c9ea5d50cf961991</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel Management">72009a32db320300c9ea5d50cf961991</sys_scope>
+        <sys_update_name>sn_hr_integrations_source_07942a7edb320300c9ea5d50cf9619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-06 20:10:09</sys_updated_on>
+        <use_session_token>false</use_session_token>
+        <user_password_inbound>TA4IT3r59sLuJHevCF8/mg==</user_password_inbound>
+        <user_password_outbound/>
+        <username_inbound>oladotun19@gmail.com</username_inbound>
+        <username_outbound/>
+        <version/>
+    </sn_hr_integrations_source>
+</record_update>

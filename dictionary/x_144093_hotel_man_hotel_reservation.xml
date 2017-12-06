@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Hotel Reservation" max_length="40" name="x_144093_hotel_man_hotel_reservation" type="collection">
+        <element label="Check-in" max_length="40" name="check_in" type="glide_date_time"/>
+        <element label="Check-Out" max_length="40" name="check_out" type="glide_date_time"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Price" max_length="40" name="price" type="string">
+            <choice/>
+        </element>
+        <element label="Request" max_length="32" name="request" reference="sys_user_has_role" type="reference"/>
+        <element label="Rooms" max_length="32" name="rooms" reference="cmdb_ci_computer_room" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Survey" max_length="40" name="survey" type="string">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="request"/>
+        </index>
+        <index name="index2">
+            <element name="rooms"/>
+        </index>
+        <index name="index3">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
